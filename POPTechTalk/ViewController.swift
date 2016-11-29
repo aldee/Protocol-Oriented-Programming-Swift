@@ -32,7 +32,7 @@ class POPButton: UIButton, ShakeableView {
     
 }
 
-class POPLabel: UILabel {
+class POPLabel: UILabel, ShakeableView {
     
 }
 
