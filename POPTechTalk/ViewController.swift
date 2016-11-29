@@ -12,7 +12,7 @@ protocol ShakeableView {
     func shake()
 }
 
-extension ShakeableView {
+extension ShakeableView where Self: UIView {
     func shake() {
         let animation = CABasicAnimation(keyPath: "position")
         animation.duration = 0.05
