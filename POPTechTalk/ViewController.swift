@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     @IBOutlet weak var imageView: POPImageView!
-    @IBOutlet weak var shakeButton: UIButton!
+    @IBOutlet weak var shakeButton: POPButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +24,7 @@ class ViewController: UIViewController {
 
     @IBAction func shake(_ sender: UIButton) {
         imageView.shake()
+        shakeButton.shake()
     }
 
 }
