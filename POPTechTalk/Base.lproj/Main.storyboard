@@ -28,7 +28,7 @@
                                     <action selector="shake:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s6A-FY-twG"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="JXf-hJ-QJ2">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image" translatesAutoresizingMaskIntoConstraints="NO" id="JXf-hJ-QJ2" customClass="POPImageView" customModule="POPTechTalk" customModuleProvider="target">
                                 <rect key="frame" x="69" y="74" width="236" height="236"/>
                             </imageView>
                         </subviews>
