@@ -12,8 +12,6 @@
 		765943781DED78F400875B14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 765943761DED78F400875B14 /* Main.storyboard */; };
 		7659437A1DED78F400875B14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 765943791DED78F400875B14 /* Assets.xcassets */; };
 		7659437D1DED78F400875B14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7659437B1DED78F400875B14 /* LaunchScreen.storyboard */; };
-		765943851DED7A5E00875B14 /* POPImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765943841DED7A5E00875B14 /* POPImageView.swift */; };
-		765943871DED7CE200875B14 /* POPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 765943861DED7CE200875B14 /* POPButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +22,6 @@
 		765943791DED78F400875B14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7659437C1DED78F400875B14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7659437E1DED78F400875B14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		765943841DED7A5E00875B14 /* POPImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POPImageView.swift; sourceTree = "<group>"; };
-		765943861DED7CE200875B14 /* POPButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POPButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,8 +60,6 @@
 				765943791DED78F400875B14 /* Assets.xcassets */,
 				7659437B1DED78F400875B14 /* LaunchScreen.storyboard */,
 				7659437E1DED78F400875B14 /* Info.plist */,
-				765943841DED7A5E00875B14 /* POPImageView.swift */,
-				765943861DED7CE200875B14 /* POPButton.swift */,
 			);
 			path = POPTechTalk;
 			sourceTree = "<group>";
@@ -143,9 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				765943751DED78F400875B14 /* ViewController.swift in Sources */,
-				765943871DED7CE200875B14 /* POPButton.swift in Sources */,
 				765943731DED78F400875B14 /* AppDelegate.swift in Sources */,
-				765943851DED7A5E00875B14 /* POPImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
