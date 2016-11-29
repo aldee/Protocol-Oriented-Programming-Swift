@@ -8,15 +8,11 @@
 
 import UIKit
 
-class POPImageView: UIImageView {
-    
+protocol ShakeableView {
+    func shake()
 }
 
-class POPButton: UIButton {
-    
-}
-
-extension UIView {
+class POPImageView: UIImageView, ShakeableView {
     func shake() {
         let animation = CABasicAnimation(keyPath: "position")
         animation.duration = 0.05
@@ -28,6 +24,17 @@ extension UIView {
     }
 }
 
+class POPButton: UIButton, ShakeableView {
+    func shake() {
+        let animation = CABasicAnimation(keyPath: "position")
+        animation.duration = 0.05
+        animation.repeatCount = 5
+        animation.autoreverses = true
+        animation.fromValue = NSValue(cgPoint: CGPoint(x: self.center.x - 4.0, y: self.center.y))
+        animation.toValue = NSValue(cgPoint: CGPoint(x: self.center.x + 4.0, y: self.center.y))
+        layer.add(animation, forKey: "position")
+    }
+}
 
 class ViewController: UIViewController {
     @IBOutlet weak var imageView: POPImageView!
