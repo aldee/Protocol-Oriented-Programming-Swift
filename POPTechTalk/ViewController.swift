@@ -32,9 +32,14 @@ class POPButton: UIButton, ShakeableView {
     
 }
 
+class POPLabel: UILabel {
+    
+}
+
 class ViewController: UIViewController {
     @IBOutlet weak var imageView: POPImageView!
     @IBOutlet weak var shakeButton: POPButton!
+    @IBOutlet weak var shakeLabel: POPLabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -49,6 +54,7 @@ class ViewController: UIViewController {
     @IBAction func shake(_ sender: UIButton) {
         imageView.shake()
         shakeButton.shake()
+        shakeLabel.shake()
     }
 
 }
